@@ -23,7 +23,7 @@ def predict(sl,sw,pl,pw):
     return prediction
     #[prediction[0]]
 def main():
-    st.title("IRIS Prediction")
+    st.title("IRIS Prediction 1")
     html_temp = """
     <div style="background-color:Yellow;padding:10px">
     <h2 style="color:white;text-align:center;">Streamlit IRIS Predictor </h2>
@@ -31,7 +31,7 @@ def main():
     """
     st.markdown(html_temp,unsafe_allow_html=True)
     sl = st.text_input("Sepal Length","Type Here")
-    sw = st.text_input("Sepal Width","Type Here")
+    sw = st.text_inpiut("Sepal Width","Type Here")
     pl = st.text_input("Petal Length","Type Here")
     pw = st.text_input("Petal Width","Type Here")
     result=""
