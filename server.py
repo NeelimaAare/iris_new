@@ -42,7 +42,7 @@ def main():
         st.text("Lets LEarn")
         st.text("Built with Streamlit")
         st.text("Hello")
-        st.text("Hi")
+        st.text("Hey")
 
 #if __name__=='__main__':
 main()
