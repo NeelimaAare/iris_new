@@ -41,6 +41,7 @@ def main():
     if st.button("About"):
         st.text("Lets LEarn")
         st.text("Built with Streamlit")
+        st.text("Hello")
 
 #if __name__=='__main__':
 main()
